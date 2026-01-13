@@ -41,3 +41,8 @@ show_profile(name="Sahil", role="Developer", language="Python")
 
 # -------- Built-in Function Example --------
 print("Length of name:", len("Python"))
+
+# we use this condition.. the code inside that condition wont run... if this particular file is
+#not executed directly.. if it were to be imported and use by the other filethe code inside the condition wont work
+if __name__=="__main__":
+    print("i am inside here")
