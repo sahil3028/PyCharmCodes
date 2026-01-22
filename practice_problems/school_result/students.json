@@ -59,6 +59,16 @@
             ],
             "average": 100.0,
             "grade": "A"
+        },
+        {
+            "name": "rahul",
+            "marks": [
+                12,
+                0,
+                0
+            ],
+            "average": 4.0,
+            "grade": "F"
         }
     ]
 }
