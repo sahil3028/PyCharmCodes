@@ -4,8 +4,7 @@ import json
 with open("students.json", 'r') as file:
     data=json.load(file)
 
-students=data["students"]
-
+students = data.get("students", [])
 
 def avg_marks(marks_list):
     total=0
@@ -25,22 +24,27 @@ def grade_calc(avg):
         return "F"
 
 def gen_report(student_list):
-    total_student=len(student)
+    if not student_list:
+        print("No students available")
+        return
+
+    total_students = len(student_list)
     failed_students = 0
-    topper = students[0]
+    topper = student_list[0]
 
     for s in student_list:
         if s["grade"] == "F":
             failed_students += 1
 
         if s["average"] > topper["average"]:
-            topper = student
+            topper = s
 
     print("----- REPORT -----")
-    print("Total students:", total_student)
+    print("Total students:", total_students)
     print("Failed students:", failed_students)
     print("Topper:", topper["name"])
     print("Topper Average:", f"{topper['average']:.2f}")
+
 
 # for s in students:
 #     avg_marks(s)
