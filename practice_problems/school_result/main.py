@@ -13,7 +13,7 @@ def avg_marks(marks_list):
         total+=int(m)
     return total / len(marks_list)
 
-def grade(avg):
+def grade_calc(avg):
 
     if avg >= 80:
         return "A"
@@ -24,16 +24,16 @@ def grade(avg):
     else:
         return "F"
 
-def gen_report(student):
+def gen_report(student_list):
     total_student=len(student)
     failed_students = 0
     topper = students[0]
 
-    for student in students:
-        if student["grade"] == "F":
+    for s in student_list:
+        if s["grade"] == "F":
             failed_students += 1
 
-        if student["average"] > topper["average"]:
+        if s["average"] > topper["average"]:
             topper = student
 
     print("----- REPORT -----")
@@ -69,20 +69,20 @@ while True:
                     break
                 marks=[]
                 for i in range (3):
-                    print(f"enter marks for the sub {i+1}")
-                    try:
-                        m=int(input())
-                    except ValueError:
-                        print("enter a proper no")
-                        continue
-                    if 0<=m<=100:
-                        marks.append(m)
-                    else:
-                        print("enter between 0 to 100")
-                        continue
+                    while True:
+                        print(f"enter marks for the sub {i+1}")
+                        try:
+                            m=int(input())
+                            if 0<=m<=100:
+                                marks.append(m)
+                                break
+                            else:
+                                print("enter between 0 to 100")
+                        except ValueError:
+                            print("enter a proper no")
 
                 avg=avg_marks(marks)
-                grade=grade(avg)
+                grade=grade_calc(avg)
 
                 student = {
                 "name": name,
