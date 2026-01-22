@@ -1,0 +1,64 @@
+{
+    "students": [
+        {
+            "name": "Rahul",
+            "marks": [
+                78,
+                85,
+                90
+            ],
+            "average": 84.33,
+            "grade": "A"
+        },
+        {
+            "name": "Ananya",
+            "marks": [
+                65,
+                72,
+                68
+            ],
+            "average": 68.33,
+            "grade": "B"
+        },
+        {
+            "name": "Vikram",
+            "marks": [
+                40,
+                42,
+                38
+            ],
+            "average": 40.0,
+            "grade": "C"
+        },
+        {
+            "name": "Neha",
+            "marks": [
+                30,
+                35,
+                25
+            ],
+            "average": 30.0,
+            "grade": "F"
+        },
+        {
+            "name": "Arjun",
+            "marks": [
+                88,
+                91,
+                94
+            ],
+            "average": 91.0,
+            "grade": "A"
+        },
+        {
+            "name": "sahil",
+            "marks": [
+                100,
+                100,
+                100
+            ],
+            "average": 100.0,
+            "grade": "A"
+        }
+    ]
+}
