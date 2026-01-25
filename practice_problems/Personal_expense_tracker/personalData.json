@@ -1,0 +1,40 @@
+{
+    "personalData": [
+        {
+            "title": "Lunch",
+            "amount": 150.0,
+            "category": "Food",
+            "date": "2026-01-20"
+        },
+        {
+            "title": "Bus Ticket",
+            "amount": 40.0,
+            "category": "Travel",
+            "date": "2026-01-20"
+        },
+        {
+            "title": "Groceries",
+            "amount": 850.5,
+            "category": "Food",
+            "date": "2026-01-21"
+        },
+        {
+            "title": "Movie Ticket",
+            "amount": 300.0,
+            "category": "Entertainment",
+            "date": "2026-01-22"
+        },
+        {
+            "title": "Mobile Recharge",
+            "amount": 199.0,
+            "category": "Utilities",
+            "date": "2026-01-23"
+        },
+        {
+            "title": "sahil",
+            "amount": 1050,
+            "category": "testing",
+            "date": "2025-11-34"
+        }
+    ]
+}
