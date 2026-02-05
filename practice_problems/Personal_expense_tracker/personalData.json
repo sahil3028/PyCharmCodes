@@ -35,6 +35,12 @@
             "amount": 1050,
             "category": "testing",
             "date": "2025-11-34"
+        },
+        {
+            "title": "club",
+            "amount": 40000,
+            "category": " party",
+            "date": "2025-11-15 "
         }
     ]
 }

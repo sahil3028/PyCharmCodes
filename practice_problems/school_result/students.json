@@ -69,6 +69,16 @@
             ],
             "average": 4.0,
             "grade": "F"
+        },
+        {
+            "name": "akash",
+            "marks": [
+                99,
+                88,
+                0
+            ],
+            "average": 62.333333333333336,
+            "grade": "B"
         }
     ]
 }
