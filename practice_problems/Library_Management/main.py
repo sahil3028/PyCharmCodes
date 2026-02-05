@@ -42,7 +42,8 @@ def add_book():
         "title": title,
         "author": author,
         "year": year,
-        "copies": copies
+        "copies": copies,
+        "borrowed_count": 0
     }
     books.append(book)
 
@@ -64,7 +65,7 @@ def borrow_book():
                                 raise ValueError("We have only ",borrowVar["copies"]," copies left")
                             else:
                                 print("Your request is successfully approved")
-                                books[count]["copies"]-=borrowVar["copies"]
+                                books[count]["copies"]-=co
                                 books[count]["borrowed_count"] += co
                                 return
 
