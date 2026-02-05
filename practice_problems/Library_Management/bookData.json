@@ -1,51 +1,44 @@
 {
-    "books": [
-        {
-            "id": 101,
-            "title": "Atomic Habits",
-            "author": "James Clear",
-            "year": 2018,
-            "copies": 4,
-            "borrowed_count": 12
-        },
-        {
-            "id": 102,
-            "title": "The Alchemist",
-            "author": "Paulo Coelho",
-            "year": 1988,
-            "copies": 2,
-            "borrowed_count": 20
-        },
-        {
-            "id": 103,
-            "title": "Clean Code",
-            "author": "Robert C. Martin",
-            "year": 2008,
-            "copies": 0,
-            "borrowed_count": 15
-        },
-        {
-            "id": 104,
-            "title": "Deep Work",
-            "author": "Cal Newport",
-            "year": 2016,
-            "copies": 3,
-            "borrowed_count": 9
-        },
-        {
-            "id": 105,
-            "title": "Python Crash Course",
-            "author": "Eric Matthes",
-            "year": 2015,
-            "copies": 1,
-            "borrowed_count": 6
-        },
-        {
-            "id": 69,
-            "title": "sahil",
-            "author": "sahil sah",
-            "year": "2026",
-            "copies": 6
-        }
-    ]
+  "books": [
+    {
+      "id": 101,
+      "title": "Atomic Habits",
+      "author": "James Clear",
+      "year": 2018,
+      "copies": 4,
+      "borrowed_count": 12
+    },
+    {
+      "id": 102,
+      "title": "The Alchemist",
+      "author": "Paulo Coelho",
+      "year": 1988,
+      "copies": 2,
+      "borrowed_count": 20
+    },
+    {
+      "id": 103,
+      "title": "Clean Code",
+      "author": "Robert C. Martin",
+      "year": 2008,
+      "copies": 0,
+      "borrowed_count": 15
+    },
+    {
+      "id": 104,
+      "title": "Deep Work",
+      "author": "Cal Newport",
+      "year": 2016,
+      "copies": 3,
+      "borrowed_count": 9
+    },
+    {
+      "id": 105,
+      "title": "Python Crash Course",
+      "author": "Eric Matthes",
+      "year": 2015,
+      "copies": 1,
+      "borrowed_count": 6
+    }
+  ]
 }
