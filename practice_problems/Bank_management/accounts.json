@@ -1,0 +1,68 @@
+{
+    "accounts": [
+        {
+            "account_no": 1001,
+            "name": "Sahil",
+            "balance": 25000.0,
+            "account_type": "Savings",
+            "transactions": [
+                {
+                    "type": "deposit",
+                    "amount": 10000.0
+                },
+                {
+                    "type": "withdraw",
+                    "amount": 3000.0
+                }
+            ]
+        },
+        {
+            "account_no": 1002,
+            "name": "Aman",
+            "balance": 12000.0,
+            "account_type": "Current",
+            "transactions": [
+                {
+                    "type": "deposit",
+                    "amount": 12000.0
+                }
+            ]
+        },
+        {
+            "account_no": 1003,
+            "name": "Neha",
+            "balance": 0.0,
+            "account_type": "Savings",
+            "transactions": [
+                {
+                    "type": "deposit",
+                    "amount": 5000.0
+                },
+                {
+                    "type": "withdraw",
+                    "amount": 5000.0
+                }
+            ]
+        },
+        {
+            "account_no": 1004,
+            "name": "Rohit",
+            "balance": 54000.0,
+            "account_type": "Savings",
+            "transactions": [
+                {
+                    "type": "deposit",
+                    "amount": 40000.0
+                },
+                {
+                    "type": "deposit",
+                    "amount": 20000.0
+                },
+                {
+                    "type": "withdraw",
+                    "amount": 6000.0
+                }
+            ]
+        }
+    ]
+}
