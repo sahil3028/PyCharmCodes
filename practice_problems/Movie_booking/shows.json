@@ -1,0 +1,53 @@
+{
+    "shows": [
+        {
+            "show_id": 201,
+            "movie": "Inception",
+            "screen": 1,
+            "time": "18:30",
+            "total_seats": 120,
+            "available_seats": 45,
+            "price": 250,
+            "booked": 75
+        },
+        {
+            "show_id": 202,
+            "movie": "Interstellar",
+            "screen": 2,
+            "time": "21:00",
+            "total_seats": 100,
+            "available_seats": 0,
+            "price": 300,
+            "booked": 100
+        },
+        {
+            "show_id": 203,
+            "movie": "The Dark Knight",
+            "screen": 3,
+            "time": "15:00",
+            "total_seats": 80,
+            "available_seats": 80,
+            "price": 200,
+            "booked": 0
+        },
+        {
+            "show_id": 204,
+            "movie": "Dune",
+            "screen": 1,
+            "time": "22:15",
+            "total_seats": 150,
+            "available_seats": 10,
+            "price": 350,
+            "booked": 140
+        }
+    ],
+    "report": {
+        "total_shows": 4,
+        "tickets_sold": 315,
+        "total_revenue": 97750,
+        "most_booked": "Dune",
+        "fully_booked": [
+            "Interstellar"
+        ]
+    }
+}
